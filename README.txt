@@ -6,6 +6,13 @@
 Requirements:
   apktool 2.2.3
 
+
+Usage:
+To initialize a new workspace in the CWD, use
+  > redroid.py /path/to/target.apk
+Once a workspace has been created, you can use the above to add a new branch or simply use
+  > redroid.py
+
 Commands:
   branch <description>	Branches modified.apk with a new description
   clear                 Clears the command line and prints branch list
