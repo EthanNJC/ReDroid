@@ -1,7 +1,7 @@
  __   ___  __   __   __     __  
 |__) |__  |  \ |__) /  \ | |  \ 
 |  \ |___ |__/ |  \ \__/ | |__/
-      v0.7 - ethaniel.me
+      v0.8 - ethaniel.me
 
 Requirements:
   apktool 2.2.3
@@ -17,6 +17,7 @@ Commands:
   branch <description>	Branches modified.apk with a new description
   clear                 Clears the command line and prints branch list
   decompile             Decompiles the original.apk of current branch
+  diff <branch #>       Outputs diff of current branch and arg branch
   exit                  Exits the program
   help                  Shows this help dialog
   install               Install modified.apk to an adb device
